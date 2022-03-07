@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
 
-driver = webdriver.Chrome(executable_path='/Users/Krum/Downloads/chromedriver')
+driver = webdriver.Chrome(executable_path='path')
 driver.get('https://www.reed.co.uk/jobs/juniour-pytnoh-developer-jobs-in-london/')
 results = []
 results2 = []
